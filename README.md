@@ -1,6 +1,6 @@
 # fedramp-cr26-vdr-ver-template
 
-Sanitized template for bringing a FedRAMP Rev5 Moderate (Class C) cloud service
+Template for bringing a FedRAMP Rev5 Moderate (Class C) cloud service
 offering into alignment with the FedRAMP Consolidated Rules for 2026 (CR26),
 with the VDR / VER rulesets (vulnerability detection, response, evaluation,
 reporting) as the first and heaviest workstream.
@@ -106,5 +106,6 @@ Evidence run outputs, findings registers, exposure-review write-ups, real
 hostnames/IPs/tenant IDs, ticket keys, owner and assessor names, agency- or
 sponsor-specific timing, and environment-specific decisions (firewall egress
 allowlists, mail transport/secret handling).
+
 
 
