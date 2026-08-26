@@ -105,4 +105,5 @@ folder only when it earns its place.
 Evidence run outputs, findings registers, exposure-review write-ups, real
 hostnames/IPs/tenant IDs, ticket keys, owner and assessor names, agency- or
 sponsor-specific timing, and environment-specific decisions (firewall egress
-allowlists, mail transport/secret handling). See SANITIZATION.md.
+allowlists, mail transport/secret handling).
+
