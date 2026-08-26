@@ -25,7 +25,7 @@ $StateFile   = "$ScriptDir\watch_state.json"
 $env:FRWATCH_SMTP_HOST = "smtp.gmail.com"
 $env:FRWATCH_SMTP_PORT = "587"
 $env:FRWATCH_SMTP_USER = "you@yourdomain.com"
-$env:FRWATCH_SMTP_PASS = "PUT-APP-PASSWORD-HERE"
+# FRWATCH_SMTP_PASS is read from the existing environment; set it outside this file.
 $env:FRWATCH_MAIL_FROM = "you@yourdomain.com"
 $env:FRWATCH_MAIL_TO   = "you@yourdomain.com"
 
@@ -50,3 +50,4 @@ exit $LASTEXITCODE
 # To remove it:
 #   schtasks /Delete /TN "FedRAMP Schema Watch" /F
 # ============================================================================
+
