@@ -1,0 +1,6 @@
+Ruleset,Workstream,Optional Adoption,Obtain/Mandatory,Maintain,Grace End,Notes
+VDR,01-vdr-ver,2026-07-04,2026-12-07,2026-12-07,2027-03-07,Mandated by CISA BOD 26-04
+VER,01-vdr-ver,2026-07-04,2026-12-07,2026-12-07,2027-03-07,Mandated by CISA BOD 26-04
+CDS,03-cds-trust-center,2026-07-04,2027-01-01,2027-08-01,2028-02-01,Certification Data Sharing / trust center; Rev5 Class C dates per ruleset.
+IEC,07-incident-communications,2026-07-04,2027-01-01,2027-01-01,(per ruleset; confirm),General CR26 Rev5 mandatory date (confirm per-ruleset)
+CCM,02-ongoing-certification,2026-07-04,2027-01-01,2027-01-01,(per ruleset; confirm),General CR26 Rev5 mandatory date (confirm per-ruleset)

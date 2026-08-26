@@ -1,0 +1,45 @@
+# State and runtime artifacts (never commit running state)
+watch_state.json
+*_state.json
+schemawatch_state.json
+noticewatch_state.json
+heartbeat.json
+*.tmp
+__pycache__/
+*.pyc
+
+# Watcher runtime output and config (lives on the box, not in the repo)
+# The deployed runtime is C:\FedRAMP-CR26\ on the automation host; repo holds SOURCE only.
+*.log
+schemawatch.log
+noticewatch.log
+wrapper.log
+fedramp-watch.config.json
+*watch*.config.json
+config/
+
+# Secrets - never commit
+*.env
+.env
+*secret*
+*credential*
+*password*
+*.cred.xml
+
+# Evidence must NOT live in this repo - belongs in the controlled store.
+# These patterns are a guardrail against accidental commits.
+*.nessus
+*nessus*export*
+*defender*export*
+*sentinel*export*
+*.pcap
+evidence/
+exports/
+raw-scans/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+desktop.ini
