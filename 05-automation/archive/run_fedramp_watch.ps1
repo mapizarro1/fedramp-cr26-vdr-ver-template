@@ -11,10 +11,10 @@
 #      not your normal password.
 #   4. Register the scheduled task with the schtasks line at the bottom.
 #
-# Security note: this stores the SMTP app password in plaintext in this file.
-# For a laptop self-alert that is usually acceptable. To harden, pull the
-# password from Windows Credential Manager or a SecureString instead of the
-# line below, and keep this file in a user-only readable location.
+# Security note: do NOT hardcode the SMTP password in this file. Set it in an
+# environment variable (FRWATCH_SMTP_PASS) outside source control, or pull it
+# from Windows Credential Manager / a SecureString at runtime. This archived
+# script is a design reference only; the current watchers (../bin/) do this.
 
 # ---------------- CONFIG ----------------
 $ScriptDir   = "C:\Tools\fedramp-watch"
@@ -50,4 +50,5 @@ exit $LASTEXITCODE
 # To remove it:
 #   schtasks /Delete /TN "FedRAMP Schema Watch" /F
 # ============================================================================
+
 
